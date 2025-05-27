@@ -90,4 +90,6 @@ python run_qwen_cpu.py
 
 #### 在运行 python 文件之前要在工作目录中 add new file;
 
-#### 粘贴推理脚本代码，注意修改 model_name 为 "mnt/data/filename"
+#### 粘贴推理脚本代码(code_example\run_qwen_cpu.py)，注意修改 model_name 为 "mnt/data/filename"
+
+## 环境搭建的结果图见 src/program_procedure
