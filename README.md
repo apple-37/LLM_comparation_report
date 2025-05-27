@@ -18,6 +18,8 @@
 
 ### STEP1 ： 环境搭建
 
+- 在[魔搭社区](https://www.modelscope.cn)启动 PAI-DSW CPU 环境
+
 #### 下载并激活 conda
 
 ```bash
@@ -77,7 +79,8 @@ cd /mnt/data
 ```
 
 ```bash
-git clone "模型http下载path"
+git clone https://www.modelscope.cn/ZhipuAI/chatglm3-6b.git
+git clone https://www.modelscope.cn/qwen/Qwen-7B-Chat.git
 ```
 
 ```bash
@@ -92,4 +95,8 @@ python run_qwen_cpu.py
 
 #### 粘贴推理脚本代码(code_example\run_qwen_cpu.py)，注意修改 model_name 为 "mnt/data/filename"
 
-## 环境搭建的结果图见 src/program_procedure
+## 环境搭建的过程截图见 src/program_procedure
+
+## 文档更新日期
+
+- 2025/5/27
